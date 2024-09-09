@@ -10,7 +10,7 @@ namespace TaskVsThread;
 [ThreadingDiagnoser]
 public class Sut
 {
-  private const int N = 10000;
+  private const int N = 1000;
   private const int WAIT_MS = 100;
   private volatile int n = N;
   ManualResetEvent done = new ManualResetEvent(false);
