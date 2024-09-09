@@ -7,9 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskVsThread", "TaskVsThrea
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskVsThreadClient", "TaskVsThreadClient\TaskVsThreadClient.csproj", "{8C8E44CB-7DDB-486C-86FA-4988F4855B8C}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskVsThreadApp", "TaskVsThreadApp\TaskVsThreadApp.csproj", "{EAC5A7B4-6CC8-4B4C-B030-15C7E79B1DCB}"
+EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskVsThreadServer", "TaskVsThreadServer\TaskVsThreadServer.csproj", "{42BBFA66-4491-4D60-A3B7-AF9826103721}"
 EndProject
-
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +25,10 @@ Global
 		{8C8E44CB-7DDB-486C-86FA-4988F4855B8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C8E44CB-7DDB-486C-86FA-4988F4855B8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C8E44CB-7DDB-486C-86FA-4988F4855B8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAC5A7B4-6CC8-4B4C-B030-15C7E79B1DCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAC5A7B4-6CC8-4B4C-B030-15C7E79B1DCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAC5A7B4-6CC8-4B4C-B030-15C7E79B1DCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAC5A7B4-6CC8-4B4C-B030-15C7E79B1DCB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{42BBFA66-4491-4D60-A3B7-AF9826103721}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{42BBFA66-4491-4D60-A3B7-AF9826103721}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42BBFA66-4491-4D60-A3B7-AF9826103721}.Release|Any CPU.ActiveCfg = Release|Any CPU

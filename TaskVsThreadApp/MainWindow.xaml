@@ -1,0 +1,31 @@
+﻿<Window x:Class="TaskVsThreadApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TaskVsThreadApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+  <Grid>
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition></ColumnDefinition>
+      <ColumnDefinition></ColumnDefinition>
+    </Grid.ColumnDefinitions>
+    <StackPanel>
+      <Button Content="Thread" HorizontalAlignment="Left"  Click="ThreadClick"/>
+      <Button Content="Deadlock" HorizontalAlignment="Left" Click="DeadlockClick"/>
+      <Button Content="Task.Run" HorizontalAlignment="Left" Click="TaskRunClick"/>
+      <Button Content="Task.Run async" HorizontalAlignment="Left" Click="TaskRunAsyncClick"/>
+      <Button Content="Task" HorizontalAlignment="Left" Click="TaskClick"/>
+      <Label Content="Multiple invocations"/>
+      <Button Content="Blocking" HorizontalAlignment="Left" Click="BlockingClick"/>
+      <Button Content="NonBlocking" HorizontalAlignment="Left" Click="NonBlockingClick"/>
+    </StackPanel>
+    <StackPanel Grid.Column="1">
+      <ProgressBar Name="Animation"  HorizontalAlignment="Center" Height="100" VerticalAlignment="Top" Width="380"/>
+      <Label Name="UsedThreadsText" FontSize="48" Height="100" />
+      <Label Name="Elapsed" FontSize="24" Height="100" />
+      <ProgressBar Name="Progress"  HorizontalAlignment="Center" Height="100" VerticalAlignment="Top" Width="380"/>
+    </StackPanel>
+  </Grid>
+</Window>
