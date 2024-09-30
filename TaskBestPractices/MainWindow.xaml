@@ -1,0 +1,26 @@
+﻿<Window x:Class="TaskBestPractices.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TaskBestPractices"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+  <Grid>
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition></ColumnDefinition>
+      <ColumnDefinition></ColumnDefinition>
+    </Grid.ColumnDefinitions>
+    <StackPanel>
+      <Button Content="Good" Click="Button_Good_Click" />
+      <Button Content="DeadLock" Click="Button_Deadlock_Click" />
+      <Button Content="ConfigureAwait" Click="Button_ConfigureAwait_Click" />
+      <Button Content="ConfigureAwait No lock" Click="Button_ConfigureAwait_NoLock_Click" />
+      <Button Content="Async void" Click="Button_AsyncVoid_Click" />
+    </StackPanel>
+    <StackPanel Grid.Column="1">
+      <TextBox Name="LogWindow" TextWrapping="Wrap"/>
+    </StackPanel>
+  </Grid>
+
+</Window>
