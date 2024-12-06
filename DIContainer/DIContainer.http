@@ -1,0 +1,4 @@
+﻿@DIContainer_HostAddress = https://localhost:55802
+
+GET {{DIContainer_HostAddress}}/
+

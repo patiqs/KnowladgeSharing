@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskVsThreadApp", "TaskVsTh
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskVsThreadServer", "TaskVsThreadServer\TaskVsThreadServer.csproj", "{42BBFA66-4491-4D60-A3B7-AF9826103721}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskBestPractices", "TaskBestPractices\TaskBestPractices.csproj", "{E3C0C0DB-D58A-436D-957A-F21F219F931F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskBestPractices", "TaskBestPractices\TaskBestPractices.csproj", "{E3C0C0DB-D58A-436D-957A-F21F219F931F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DIContainer", "DIContainer\DIContainer.csproj", "{C3583529-ED96-4842-8DB2-D5CC46ACADE4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{E3C0C0DB-D58A-436D-957A-F21F219F931F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3C0C0DB-D58A-436D-957A-F21F219F931F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E3C0C0DB-D58A-436D-957A-F21F219F931F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3583529-ED96-4842-8DB2-D5CC46ACADE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3583529-ED96-4842-8DB2-D5CC46ACADE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3583529-ED96-4842-8DB2-D5CC46ACADE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3583529-ED96-4842-8DB2-D5CC46ACADE4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
