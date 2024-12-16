@@ -3,8 +3,14 @@ extern alias nullableEnable;
 using Newtonsoft.Json;
 using NUnit.Framework;
 using System.Runtime.CompilerServices;
+using System.Security.Cryptography;
+using System.Text;
 using System.Text.Json;
 using System.Text.Json.Serialization;
+using System.Xml.Serialization;
+using System.Xml;
+using MyContract = nullableDisable::MyContract;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace NullableTest;
 
@@ -199,4 +205,60 @@ public class Tests
     });
   }
 
+  [Test]
+  public void SoapSerializationTest()
+  {
+    //arrange
+    nullableDisable::MySoapContract dis = nullableDisable::MySoapContract.Create();
+    nullableEnable::MySoapContract en = nullableEnable::MySoapContract.Create();
+
+    //act
+    string disTxt = SerializeToSoap(dis);
+    string enTxt = SerializeToSoap(en);
+
+    var enFromDis = DeSerializeFromSoap(disTxt, dis.GetType());
+    var disFromEn = DeSerializeFromSoap(enTxt, en.GetType());
+
+    //assert
+    Assert.That(disTxt, Is.EqualTo(enTxt));
+    Assert.That($"{enFromDis}", Is.EqualTo($"{en}"));
+    Assert.That($"{enFromDis}", Is.EqualTo($"{disFromEn}"));
+  }
+
+  private static string SerializeToSoap(object rsp)
+  {
+    var stream = new MemoryStream();
+    using XmlWriter writer = new XmlTextWriter(stream, Encoding.UTF8);
+
+    XmlTypeMapping myTypeMapping =
+      new SoapReflectionImporter().ImportTypeMapping(rsp.GetType());
+
+    XmlSerializer mySerializer = new XmlSerializer(myTypeMapping);
+    //XmlSerializer mySerializer = new XmlSerializer(typeof(GetJobsResult));
+    writer.WriteStartElement("root");
+    mySerializer.Serialize(writer, rsp);
+    writer.WriteEndElement();
+    writer.Flush();
+
+    var len = (int)stream.Position;
+    stream.Seek(0, SeekOrigin.Begin);
+    var serialized = Encoding.UTF8.GetString(stream.GetBuffer(), 0, len);
+    TestContext.Out.WriteLine(serialized);
+    return serialized;
+  }
+  private static object DeSerializeFromSoap(string soapMessage, Type rspType)
+  {
+    var stream = new MemoryStream(Encoding.UTF8.GetBytes(soapMessage) );
+
+    using XmlReader reader = new XmlTextReader(stream);
+
+    XmlTypeMapping myTypeMapping =
+      new SoapReflectionImporter().ImportTypeMapping(rspType);
+
+    XmlSerializer mySerializer = new XmlSerializer(myTypeMapping);
+
+    reader.ReadStartElement();
+
+    return mySerializer.Deserialize(reader);
+  }
 }

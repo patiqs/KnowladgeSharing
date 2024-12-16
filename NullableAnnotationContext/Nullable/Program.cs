@@ -20,69 +20,69 @@ List<int>? FooNd(List<int>? l) => l;
 public class MyClass
 {
   public string FooNe(string s) => s;
+
   public string? FooNd(string? s) => s;
 }
 
-public record Nested(int A);
+[ProtoContract]
+public record Nested
+{
+  [ProtoMember(1)]
+  public int A { get; set; } 
+}
 
 [ProtoContract]
 public record MyContract
 {
-  [ProtoMember(1)]
-  public int? nIntNull { get; set; }
-  [ProtoMember(2)]
-  public int? nIntDefault { get; set; }
-  [ProtoMember(3)]
-  public int? nIntValued { get; set; }
+  [ProtoMember(1)] public int? nIntNull { get; set; }
 
-  [ProtoMember(4)]
-  public KeyValuePair<string?, int?>? nKvpNull { get; set; }
-  [ProtoMember(5)]
-  public KeyValuePair<string?, int?>? nKvpDefault { get; set; }
-  [ProtoMember(6)]
-  public KeyValuePair<string?, int?>? nKvpValued1 { get; set; }
-  [ProtoMember(7)]
-  public KeyValuePair<string?, int?>? nKvpValued2 { get; set; }
+  [ProtoMember(2)] public int? nIntDefault { get; set; }
 
-  [ProtoMember(8)]
-  public KeyValuePair<string?, int?> kvpDefault { get; set; }
-  [ProtoMember(9)]
-  public KeyValuePair<string?, int?> kvpValued1 { get; set; }
-  [ProtoMember(10)]
-  public KeyValuePair<string?, int?> kvpValued2 { get; set; }
+  [ProtoMember(3)] public int? nIntValued { get; set; }
 
-  [ProtoMember(11)]
-  public int?[]? nArrayOfNullablesNull { get; set; }
-  [ProtoMember(12)]
-  public int?[]? nArrayOfNullablesDefault { get; set; }
-  [ProtoMember(13)]
-  public int?[]? nArrayOfNullablesValued { get; set; }
-  [ProtoMember(14)]
-  public int?[] ArrayOfNullables { get; set; }
-  
-  [ProtoMember(15)]
-  public List<int?>? nListOfNullablesNull { get; set; }
-  [ProtoMember(16)]
-  public List<int?>? nListOfNullablesDefault { get; set; }
-  [ProtoMember(17)]
-  public List<int?>? nListOfNullablesValued { get; set; }
-  [ProtoMember(18)]
-  public List<int?> ListOfNullables { get; set; }
+  [ProtoMember(4)] public KeyValuePair<string?, int?>? nKvpNull { get; set; }
 
-  [ProtoMember(19)]
-  public Nested? nNestedNull { get; set; }
-  [ProtoMember(20)]
-  public Nested? nNestedDefault { get; set; }
-  [ProtoMember(21)]
-  public Nested? nNestedValued { get; set; }
-  [ProtoMember(22)]
-  public Nested NestedNull { get; set; }
-  [ProtoMember(23)]
-  public Nested NestedDefault { get; set; }
-  [ProtoMember(24)]
-  public Nested NestedValued { get; set; }
+  [ProtoMember(5)] public KeyValuePair<string?, int?>? nKvpDefault { get; set; }
 
-  public static MyContract Create() => new MyContract
+  [ProtoMember(6)] public KeyValuePair<string?, int?>? nKvpValued1 { get; set; }
+
+  [ProtoMember(7)] public KeyValuePair<string?, int?>? nKvpValued2 { get; set; }
+
+  [ProtoMember(8)] public KeyValuePair<string?, int?> kvpDefault { get; set; }
+
+  [ProtoMember(9)] public KeyValuePair<string?, int?> kvpValued1 { get; set; }
+
+  [ProtoMember(10)] public KeyValuePair<string?, int?> kvpValued2 { get; set; }
+
+  [ProtoMember(11)] public int?[]? nArrayOfNullablesNull { get; set; }
+
+  [ProtoMember(12)] public int?[]? nArrayOfNullablesDefault { get; set; }
+
+  [ProtoMember(13)] public int?[]? nArrayOfNullablesValued { get; set; }
+
+  [ProtoMember(14)] public int?[] ArrayOfNullables { get; set; }
+
+  [ProtoMember(15)] public List<int?>? nListOfNullablesNull { get; set; }
+
+  [ProtoMember(16)] public List<int?>? nListOfNullablesDefault { get; set; }
+
+  [ProtoMember(17)] public List<int?>? nListOfNullablesValued { get; set; }
+
+  [ProtoMember(18)] public List<int?> ListOfNullables { get; set; }
+
+  [ProtoMember(19)] public Nested? nNestedNull { get; set; }
+
+  [ProtoMember(20)] public Nested? nNestedDefault { get; set; }
+
+  [ProtoMember(21)] public Nested? nNestedValued { get; set; }
+
+  [ProtoMember(22)] public Nested NestedNull { get; set; }
+
+  [ProtoMember(23)] public Nested NestedDefault { get; set; }
+
+  [ProtoMember(24)] public Nested NestedValued { get; set; }
+
+  public static MyContract Create() => new()
   {
     nIntNull = null,
     nIntDefault = default,
@@ -110,10 +110,60 @@ public record MyContract
 
     nNestedNull = null,
     nNestedDefault = default,
-    nNestedValued = new Nested(123),
+    nNestedValued = new Nested{ A =123},
 
     NestedNull = null,
     NestedDefault = default,
-    NestedValued = new Nested(123),
+    NestedValued = new Nested{ A = 123 }
+  };
+}
+
+public record MySoapContract
+{
+  public int Int { get; set; }
+  public int? nIntNull { get; set; }
+  public int? nIntDefault { get; set; }
+  public int? nIntValued { get; set; }
+
+
+ public List<Nested?>? nListOfNullablesNull { get; set; }
+
+ public List<Nested?>? nListOfNullablesDefault { get; set; }
+
+public List<Nested?>? nListOfNullablesValued { get; set; }
+
+   public List<Nested?> ListOfNullables { get; set; }
+
+   public Nested? nNestedNull { get; set; }
+
+ public Nested? nNestedDefault { get; set; }
+
+ public Nested? nNestedValued { get; set; }
+
+ public Nested NestedNull { get; set; }
+
+  public Nested NestedDefault { get; set; }
+
+ public Nested NestedValued { get; set; }
+
+  public static MySoapContract Create() => new()
+  {
+    Int =123,
+    nIntNull = null,
+    nIntDefault = default,
+    nIntValued = 123,
+
+    nListOfNullablesNull = null,
+    nListOfNullablesDefault = default,
+    nListOfNullablesValued = new List<Nested?> { new Nested{ A = 1 }, null, new Nested{ A = 2 }, default, new Nested{ A = 3 } },
+    ListOfNullables = new List<Nested?> { new Nested{ A = 1 }, null, new Nested{ A = 2 }, default, new Nested{ A = 3 }},
+
+    nNestedNull = null,
+    nNestedDefault = default,
+    nNestedValued = new Nested{ A = 123 },
+
+    NestedNull = null,
+    NestedDefault = default,
+    NestedValued = new Nested{ A = 123 }
   };
 }

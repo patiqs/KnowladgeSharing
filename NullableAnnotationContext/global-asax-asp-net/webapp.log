@@ -1,0 +1,448 @@
+-------------------------------------------
+Event: Application_Start
+Guid: 382235a4-bf92-4806-96fa-8f94139afcc2
+Thread Id: 1
+Appdomain: /LM/W3SVC/3/ROOT-1-133788361093724370
+TestMessage: not null
+No Thread
+
+-------------------------------------------
+Event: Application_BeginRequest
+Guid: aa86cd6e-0df3-464f-a154-546e652306dc
+Thread Id: 9
+Appdomain: /LM/W3SVC/3/ROOT-1-133788361093724370
+TestMessage: 
+Pool Thread
+
+-------------------------------------------
+Event: Application_BeginRequest
+Guid: 41602824-881f-4be6-9b21-bfaea3455475
+Thread Id: 9
+Appdomain: /LM/W3SVC/3/ROOT-1-133788361093724370
+TestMessage: 
+Pool Thread
+
+-------------------------------------------
+Event: Page_Load
+Guid: 41602824-881f-4be6-9b21-bfaea3455475
+Thread Id: 9
+Appdomain: /LM/W3SVC/3/ROOT-1-133788361093724370
+TestMessage: 
+Pool Thread
+
+-------------------------------------------
+Event: Application_EndRequest
+Guid: 41602824-881f-4be6-9b21-bfaea3455475
+Thread Id: 9
+Appdomain: /LM/W3SVC/3/ROOT-1-133788361093724370
+TestMessage: 
+Pool Thread
+
+-------------------------------------------
+Event: Application_EndRequest
+Guid: aa86cd6e-0df3-464f-a154-546e652306dc
+Thread Id: 9
+Appdomain: /LM/W3SVC/3/ROOT-1-133788361093724370
+TestMessage: 
+Pool Thread
+
+-------------------------------------------
+Event: Application_BeginRequest
+Guid: 41602824-881f-4be6-9b21-bfaea3455475
+Thread Id: 9
+Appdomain: /LM/W3SVC/3/ROOT-1-133788361093724370
+TestMessage: 
+Pool Thread
+
+-------------------------------------------
+Event: Application_BeginRequest
+Guid: 07f9a1bd-247c-4bb0-8c9e-7ffa402dbae5
+Thread Id: 9
+Appdomain: /LM/W3SVC/3/ROOT-1-133788361093724370
+TestMessage: 
+Pool Thread
+
+-------------------------------------------
+Event: Page_Load
+Guid: 07f9a1bd-247c-4bb0-8c9e-7ffa402dbae5
+Thread Id: 9
+Appdomain: /LM/W3SVC/3/ROOT-1-133788361093724370
+TestMessage: 
+Pool Thread
+
+-------------------------------------------
+Event: Application_EndRequest
+Guid: 07f9a1bd-247c-4bb0-8c9e-7ffa402dbae5
+Thread Id: 9
+Appdomain: /LM/W3SVC/3/ROOT-1-133788361093724370
+TestMessage: 
+Pool Thread
+
+-------------------------------------------
+Event: Application_EndRequest
+Guid: 41602824-881f-4be6-9b21-bfaea3455475
+Thread Id: 9
+Appdomain: /LM/W3SVC/3/ROOT-1-133788361093724370
+TestMessage: 
+Pool Thread
+
+-------------------------------------------
+Event: Application_BeginRequest
+Guid: 41602824-881f-4be6-9b21-bfaea3455475
+Thread Id: 9
+Appdomain: /LM/W3SVC/3/ROOT-1-133788361093724370
+TestMessage: 
+Pool Thread
+
+-------------------------------------------
+Event: Page_Load
+Guid: 41602824-881f-4be6-9b21-bfaea3455475
+Thread Id: 9
+Appdomain: /LM/W3SVC/3/ROOT-1-133788361093724370
+TestMessage: 
+Pool Thread
+
+-------------------------------------------
+Event: Application_EndRequest
+Guid: 41602824-881f-4be6-9b21-bfaea3455475
+Thread Id: 9
+Appdomain: /LM/W3SVC/3/ROOT-1-133788361093724370
+TestMessage: 
+Pool Thread
+
+-------------------------------------------
+Event: Application_End
+Guid: 382235a4-bf92-4806-96fa-8f94139afcc2
+Thread Id: 25
+Appdomain: /LM/W3SVC/3/ROOT-1-133788361093724370
+TestMessage: not null
+Pool Thread
+
+-------------------------------------------
+Event: Application_Start
+Guid: 0eb751a7-95d4-4078-a15f-67647cddc409
+Thread Id: 1
+Appdomain: /LM/W3SVC/3/ROOT-2-133788363390722053
+TestMessage: not null
+No Thread
+
+-------------------------------------------
+Event: Application_BeginRequest
+Guid: 23ba2dfe-5fdb-4e74-a1aa-d51d0ac8092b
+Thread Id: 10
+Appdomain: /LM/W3SVC/3/ROOT-2-133788363390722053
+TestMessage: 
+Pool Thread
+
+-------------------------------------------
+Event: Application_EndRequest
+Guid: 23ba2dfe-5fdb-4e74-a1aa-d51d0ac8092b
+Thread Id: 10
+Appdomain: /LM/W3SVC/3/ROOT-2-133788363390722053
+TestMessage: 
+Pool Thread
+
+-------------------------------------------
+Event: Application_BeginRequest
+Guid: 23ba2dfe-5fdb-4e74-a1aa-d51d0ac8092b
+Thread Id: 10
+Appdomain: /LM/W3SVC/3/ROOT-2-133788363390722053
+TestMessage: 
+Pool Thread
+
+-------------------------------------------
+Event: Application_EndRequest
+Guid: 23ba2dfe-5fdb-4e74-a1aa-d51d0ac8092b
+Thread Id: 10
+Appdomain: /LM/W3SVC/3/ROOT-2-133788363390722053
+TestMessage: 
+Pool Thread
+
+-------------------------------------------
+Event: Application_BeginRequest
+Guid: 23ba2dfe-5fdb-4e74-a1aa-d51d0ac8092b
+Thread Id: 13
+Appdomain: /LM/W3SVC/3/ROOT-2-133788363390722053
+TestMessage: 
+Pool Thread
+
+-------------------------------------------
+Event: Application_BeginRequest
+Guid: a93807cb-2c08-46e5-bd6b-2236a6469178
+Thread Id: 13
+Appdomain: /LM/W3SVC/3/ROOT-2-133788363390722053
+TestMessage: 
+Pool Thread
+
+-------------------------------------------
+Event: Page_Load
+Guid: a93807cb-2c08-46e5-bd6b-2236a6469178
+Thread Id: 13
+Appdomain: /LM/W3SVC/3/ROOT-2-133788363390722053
+TestMessage: 
+Pool Thread
+
+-------------------------------------------
+Event: Application_EndRequest
+Guid: a93807cb-2c08-46e5-bd6b-2236a6469178
+Thread Id: 13
+Appdomain: /LM/W3SVC/3/ROOT-2-133788363390722053
+TestMessage: 
+Pool Thread
+
+-------------------------------------------
+Event: Application_EndRequest
+Guid: 23ba2dfe-5fdb-4e74-a1aa-d51d0ac8092b
+Thread Id: 13
+Appdomain: /LM/W3SVC/3/ROOT-2-133788363390722053
+TestMessage: 
+Pool Thread
+
+-------------------------------------------
+Event: Application_BeginRequest
+Guid: a93807cb-2c08-46e5-bd6b-2236a6469178
+Thread Id: 25
+Appdomain: /LM/W3SVC/3/ROOT-2-133788363390722053
+TestMessage: 
+Pool Thread
+
+-------------------------------------------
+Event: Application_EndRequest
+Guid: a93807cb-2c08-46e5-bd6b-2236a6469178
+Thread Id: 25
+Appdomain: /LM/W3SVC/3/ROOT-2-133788363390722053
+TestMessage: 
+Pool Thread
+
+-------------------------------------------
+Event: Application_BeginRequest
+Guid: a93807cb-2c08-46e5-bd6b-2236a6469178
+Thread Id: 13
+Appdomain: /LM/W3SVC/3/ROOT-2-133788363390722053
+TestMessage: 
+Pool Thread
+
+-------------------------------------------
+Event: Application_EndRequest
+Guid: a93807cb-2c08-46e5-bd6b-2236a6469178
+Thread Id: 13
+Appdomain: /LM/W3SVC/3/ROOT-2-133788363390722053
+TestMessage: 
+Pool Thread
+
+-------------------------------------------
+Event: Application_BeginRequest
+Guid: a93807cb-2c08-46e5-bd6b-2236a6469178
+Thread Id: 10
+Appdomain: /LM/W3SVC/3/ROOT-2-133788363390722053
+TestMessage: 
+Pool Thread
+
+-------------------------------------------
+Event: Application_EndRequest
+Guid: a93807cb-2c08-46e5-bd6b-2236a6469178
+Thread Id: 10
+Appdomain: /LM/W3SVC/3/ROOT-2-133788363390722053
+TestMessage: 
+Pool Thread
+
+-------------------------------------------
+Event: Application_BeginRequest
+Guid: a93807cb-2c08-46e5-bd6b-2236a6469178
+Thread Id: 10
+Appdomain: /LM/W3SVC/3/ROOT-2-133788363390722053
+TestMessage: 
+Pool Thread
+
+-------------------------------------------
+Event: Application_EndRequest
+Guid: a93807cb-2c08-46e5-bd6b-2236a6469178
+Thread Id: 10
+Appdomain: /LM/W3SVC/3/ROOT-2-133788363390722053
+TestMessage: 
+Pool Thread
+
+-------------------------------------------
+Event: Application_BeginRequest
+Guid: a93807cb-2c08-46e5-bd6b-2236a6469178
+Thread Id: 10
+Appdomain: /LM/W3SVC/3/ROOT-2-133788363390722053
+TestMessage: 
+Pool Thread
+
+-------------------------------------------
+Event: Application_EndRequest
+Guid: a93807cb-2c08-46e5-bd6b-2236a6469178
+Thread Id: 10
+Appdomain: /LM/W3SVC/3/ROOT-2-133788363390722053
+TestMessage: 
+Pool Thread
+
+-------------------------------------------
+Event: Application_End
+Guid: 0eb751a7-95d4-4078-a15f-67647cddc409
+Thread Id: 29
+Appdomain: /LM/W3SVC/3/ROOT-2-133788363390722053
+TestMessage: not null
+Pool Thread
+
+-------------------------------------------
+Event: Application_Start
+Guid: f04255a7-eb67-49d0-ba30-37bb6c809d47
+Thread Id: 1
+Appdomain: /LM/W3SVC/3/ROOT-1-133788380272297232
+TestMessage: not null
+No Thread
+
+-------------------------------------------
+Event: Application_BeginRequest
+Guid: f8791d56-b090-4197-92e5-2d0f40a5db10
+Thread Id: 7
+Appdomain: /LM/W3SVC/3/ROOT-1-133788380272297232
+TestMessage: 
+Pool Thread
+
+-------------------------------------------
+Event: Application_BeginRequest
+Guid: 7f953a7c-ecbd-47c9-892b-8121b7e2b19e
+Thread Id: 7
+Appdomain: /LM/W3SVC/3/ROOT-1-133788380272297232
+TestMessage: 
+Pool Thread
+
+-------------------------------------------
+Event: Page_Load
+Guid: 7f953a7c-ecbd-47c9-892b-8121b7e2b19e
+Thread Id: 7
+Appdomain: /LM/W3SVC/3/ROOT-1-133788380272297232
+TestMessage: 
+Pool Thread
+
+-------------------------------------------
+Event: Application_EndRequest
+Guid: 7f953a7c-ecbd-47c9-892b-8121b7e2b19e
+Thread Id: 7
+Appdomain: /LM/W3SVC/3/ROOT-1-133788380272297232
+TestMessage: 
+Pool Thread
+
+-------------------------------------------
+Event: Application_EndRequest
+Guid: f8791d56-b090-4197-92e5-2d0f40a5db10
+Thread Id: 7
+Appdomain: /LM/W3SVC/3/ROOT-1-133788380272297232
+TestMessage: 
+Pool Thread
+
+-------------------------------------------
+Event: Application_BeginRequest
+Guid: f8791d56-b090-4197-92e5-2d0f40a5db10
+Thread Id: 7
+Appdomain: /LM/W3SVC/3/ROOT-1-133788380272297232
+TestMessage: 
+Pool Thread
+
+-------------------------------------------
+Event: Application_EndRequest
+Guid: f8791d56-b090-4197-92e5-2d0f40a5db10
+Thread Id: 7
+Appdomain: /LM/W3SVC/3/ROOT-1-133788380272297232
+TestMessage: 
+Pool Thread
+
+-------------------------------------------
+Event: Application_BeginRequest
+Guid: f8791d56-b090-4197-92e5-2d0f40a5db10
+Thread Id: 7
+Appdomain: /LM/W3SVC/3/ROOT-1-133788380272297232
+TestMessage: 
+Pool Thread
+
+-------------------------------------------
+Event: Application_EndRequest
+Guid: f8791d56-b090-4197-92e5-2d0f40a5db10
+Thread Id: 7
+Appdomain: /LM/W3SVC/3/ROOT-1-133788380272297232
+TestMessage: 
+Pool Thread
+
+-------------------------------------------
+Event: Application_BeginRequest
+Guid: f8791d56-b090-4197-92e5-2d0f40a5db10
+Thread Id: 7
+Appdomain: /LM/W3SVC/3/ROOT-1-133788380272297232
+TestMessage: 
+Pool Thread
+
+-------------------------------------------
+Event: Application_EndRequest
+Guid: f8791d56-b090-4197-92e5-2d0f40a5db10
+Thread Id: 7
+Appdomain: /LM/W3SVC/3/ROOT-1-133788380272297232
+TestMessage: 
+Pool Thread
+
+-------------------------------------------
+Event: Application_BeginRequest
+Guid: f8791d56-b090-4197-92e5-2d0f40a5db10
+Thread Id: 9
+Appdomain: /LM/W3SVC/3/ROOT-1-133788380272297232
+TestMessage: 
+Pool Thread
+
+-------------------------------------------
+Event: Application_EndRequest
+Guid: f8791d56-b090-4197-92e5-2d0f40a5db10
+Thread Id: 9
+Appdomain: /LM/W3SVC/3/ROOT-1-133788380272297232
+TestMessage: 
+Pool Thread
+
+-------------------------------------------
+Event: Application_BeginRequest
+Guid: f8791d56-b090-4197-92e5-2d0f40a5db10
+Thread Id: 7
+Appdomain: /LM/W3SVC/3/ROOT-1-133788380272297232
+TestMessage: 
+Pool Thread
+
+-------------------------------------------
+Event: Application_EndRequest
+Guid: f8791d56-b090-4197-92e5-2d0f40a5db10
+Thread Id: 7
+Appdomain: /LM/W3SVC/3/ROOT-1-133788380272297232
+TestMessage: 
+Pool Thread
+
+-------------------------------------------
+Event: Application_BeginRequest
+Guid: f8791d56-b090-4197-92e5-2d0f40a5db10
+Thread Id: 8
+Appdomain: /LM/W3SVC/3/ROOT-1-133788380272297232
+TestMessage: 
+Pool Thread
+
+-------------------------------------------
+Event: Application_EndRequest
+Guid: f8791d56-b090-4197-92e5-2d0f40a5db10
+Thread Id: 8
+Appdomain: /LM/W3SVC/3/ROOT-1-133788380272297232
+TestMessage: 
+Pool Thread
+
+-------------------------------------------
+Event: Application_BeginRequest
+Guid: f8791d56-b090-4197-92e5-2d0f40a5db10
+Thread Id: 10
+Appdomain: /LM/W3SVC/3/ROOT-1-133788380272297232
+TestMessage: 
+Pool Thread
+
+-------------------------------------------
+Event: Application_EndRequest
+Guid: f8791d56-b090-4197-92e5-2d0f40a5db10
+Thread Id: 10
+Appdomain: /LM/W3SVC/3/ROOT-1-133788380272297232
+TestMessage: 
+Pool Thread
+

@@ -4,3 +4,4 @@
 **/*.user
 *.user
 *sln.DotSettings.user
+/packages/

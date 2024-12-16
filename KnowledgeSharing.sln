@@ -25,6 +25,29 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NullableDisableTest", "Null
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NullableEnableTest", "NullableAnnotationContext\NullableTest\NullableEnableTest.csproj", "{A867B586-D38A-4669-81D6-BDA509ACD6AE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "global-asax-asp-net_test", "NullableAnnotationContext\global-asax-asp-net_test\global-asax-asp-net_test.csproj", "{02E5F624-E616-41E7-A488-9E268E0A5323}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "global-asax-asp-net", "NullableAnnotationContext\global-asax-asp-net\", "{D9F2CD61-DDD2-4600-B6B9-304E41523573}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_62608"
+		Debug.AspNetCompiler.PhysicalPath = "NullableAnnotationContext\global-asax-asp-net\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_62608\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_62608"
+		Release.AspNetCompiler.PhysicalPath = "NullableAnnotationContext\global-asax-asp-net\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_62608\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "62608"
+		SlnRelativePath = "NullableAnnotationContext\global-asax-asp-net\"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -71,6 +94,14 @@ Global
 		{A867B586-D38A-4669-81D6-BDA509ACD6AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A867B586-D38A-4669-81D6-BDA509ACD6AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A867B586-D38A-4669-81D6-BDA509ACD6AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02E5F624-E616-41E7-A488-9E268E0A5323}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02E5F624-E616-41E7-A488-9E268E0A5323}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02E5F624-E616-41E7-A488-9E268E0A5323}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02E5F624-E616-41E7-A488-9E268E0A5323}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9F2CD61-DDD2-4600-B6B9-304E41523573}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9F2CD61-DDD2-4600-B6B9-304E41523573}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9F2CD61-DDD2-4600-B6B9-304E41523573}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9F2CD61-DDD2-4600-B6B9-304E41523573}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -80,6 +111,8 @@ Global
 		{BB599D20-DAF4-4B96-9259-77B94CFB45C5} = {07B397B5-C8CA-421D-85A1-449772536510}
 		{9C037B36-15A7-44AF-B8CB-7435EED26999} = {07B397B5-C8CA-421D-85A1-449772536510}
 		{A867B586-D38A-4669-81D6-BDA509ACD6AE} = {07B397B5-C8CA-421D-85A1-449772536510}
+		{02E5F624-E616-41E7-A488-9E268E0A5323} = {07B397B5-C8CA-421D-85A1-449772536510}
+		{D9F2CD61-DDD2-4600-B6B9-304E41523573} = {07B397B5-C8CA-421D-85A1-449772536510}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0DE0A6BC-9A30-4B49-BAFD-F582C4B592A1}
